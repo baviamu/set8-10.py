@@ -1,0 +1,12 @@
+d=int(input())
+wh=[]
+for z in range(0,d):
+ n=input()
+ wh.append(n)
+ben1=[]
+for z in zip(*wh):
+ if(z.count(z[0])==len(z)):
+  ben1.append(z[0])
+ else:
+  break
+print(''.join(ben1))
