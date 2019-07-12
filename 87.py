@@ -3,7 +3,7 @@ wos=[]
 ed=[]
 gcd=1
 for t in range(1,ley+1):
-    if(ley%i==0):
+    if(ley%t==0):
         wos.append(t)
 for l in range(1,maz+1):
     if(maz%l==0):
