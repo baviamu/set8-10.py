@@ -1,2 +1,2 @@
 bav,chi=input().split()
-print(bav[-int(chit):]
+print(bav[-int(chi):]
